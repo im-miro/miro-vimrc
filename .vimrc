@@ -17,11 +17,12 @@ Plugin 'prettier/vim-prettier'
 Plugin 'deoplete-plugins/deoplete-jedi'
 Plugin 'Shougo/neco-vim'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
 
-"　その他のカスタム設定!!
+"その他のカスタム設定!!
 " 行番号を表示
 set number
 " ファイルを上書きする前にバックアップを作ることを無効化
